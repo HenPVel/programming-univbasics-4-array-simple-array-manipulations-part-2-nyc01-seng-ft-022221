@@ -6,7 +6,7 @@ def using_insert(x,y)
   x.insert(4,y)
 end
 
-def using_uniq(x)
+def using_uniq(Array)
   x.uniq
 end
 
@@ -20,4 +20,3 @@ def using_delete(x,y)
   def using_delete_at(x,y)
     x.delete_at(y)
   end
-  
