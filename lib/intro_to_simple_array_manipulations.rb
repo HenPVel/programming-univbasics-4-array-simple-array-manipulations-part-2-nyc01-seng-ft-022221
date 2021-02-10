@@ -10,4 +10,14 @@ def using_uniq(x)
   x.uniq
 end
 
-def 
+def using_flatten(x)
+  x.flatten
+end
+
+def using_delete(x,y)
+  x.delete(y)
+
+  def using_delete_at(x,y)
+    x.delete_at(y)
+  end
+  
